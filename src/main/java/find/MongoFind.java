@@ -18,7 +18,7 @@ public class MongoFind {
             System.out.println("Connect to database successfully");
 
             MongoCollection<Document> collection = mongoDatabase
-                    .getCollection("person");
+                    .getCollection("phone");
             System.out.println("集合 test 选择成功");
 
             //检索所有文档

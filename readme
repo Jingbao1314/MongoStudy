@@ -1,0 +1,5 @@
+1.mkdir /home/jingbao/mongodb-linux-x86_64-3.0.6/data/db  创建数据存储的文件目录
+2./mongod -dbpath /home/jingbao/mongodb-linux-x86_64-3.0.6/data/db 启动mongo并自定义/data/db
+
+https://blog.csdn.net/wufaliang003/article/details/81385451 关于mongo的使用场景
+
